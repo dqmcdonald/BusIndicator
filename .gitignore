@@ -26,9 +26,23 @@ fp-info-cache
 *.dsn
 *.ses
 
+# PyAutoRoute output
+*_routed.kicad_pcb
+*_placed.kicad_pcb
+*_placed_routed.kicad_pcb
+*_routed.kicad_prl
+*_placed.kicad_prl
+*_placed_routed.kicad_prl
+*.log
+snapshots/
+
 # Exported BOM files
 *.xml
 *.csv
 
 # History
 .history
+
+# Claude Kicad Happy
+analysis
+design-review.md
